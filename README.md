@@ -1,4 +1,4 @@
-# ChatSummarizationWithVertexAI
+ # ChatSummarizationWithVertexAI
  
 ## 🧠 Chat Summarization using Google Vertex AI (FastAPI + Gemini)
 
@@ -139,14 +139,9 @@ python tests/test_api.py
 
 ## 🧠 Model Used
 
-- By default, the model used is:
+- The model used is:
   ```python
-  model = GenerativeModel("gemini-pro")
-  ```
-- If access to `gemini-pro` is restricted, you can fall back to:
-  ```python
-  from vertexai.language_models import TextGenerationModel
-  model = TextGenerationModel.from_pretrained("text-bison")
+  model = GenerativeModel("gemini-2.0-flash-lite-001")
   ```
 
 ---
